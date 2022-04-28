@@ -1,12 +1,21 @@
 /* Login */
 .log-in-form {
-	/* border: 1px solid #cacaca; */
-	padding: 2rem;
-	border-radius: .5rem;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2vh;
+	padding: 2rem;
 	max-width: 440px;
-	/* background-color: whitesmoke; */
-	position: relative;
+	border: 1px solid #cacaca;
+	border-radius: .5rem;
+	
+}
+
+input[type=submit] {
+	background-color: #5cac44;
+}
+
+.img {
+	max-width: 96px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
